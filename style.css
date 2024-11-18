@@ -1,0 +1,234 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+}
+.top{
+    background-color: #f1f1f1;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    padding: 30px;
+    z-index: 1;
+    
+}
+
+.hero-image{
+    position: relative;
+}
+.top-right{
+    margin-left:70% ;
+    flex: 70%;
+}
+
+.top-left{
+    flex: 30%;
+}
+
+.hero-text{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-size: 36px;
+    margin: 8% 15% 29% 15%;
+    padding: 20px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    z-index: 0.9;
+}
+
+
+.hero-text b{
+    background-color: black;
+    padding: 5px;
+}
+
+.projects{
+    padding: 8px 16px;
+}
+.img-text{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    top: 0;
+}
+
+
+.img1,.img2,.img3,.img4{
+    margin: 10px;
+    height: 100%;
+    position: relative;
+}
+
+.projects h3{
+    padding: 20px 15px;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+
+.img-con,.img-con2{
+    display: flex;
+    padding: 8px 16px;
+    
+}
+
+
+.about h3{
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.about p{
+    font-size: 17px;
+    padding: 20px;
+    width: 100%;
+    margin: 15px 0px;
+    align-items: center;
+
+}
+
+.architect{
+    width: 100%;
+}
+
+.owners{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.about{
+    padding: 8px 16px;
+    margin: 0px;
+    height: 471;
+    width: 1408;
+    
+    
+}
+
+
+.img-text1{
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+
+}
+
+.owners h4{
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 17px;
+    color: grey;
+
+}
+
+
+.owners button{
+    border: none ;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+    font-size: 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.john,.jane,.mike,.dan{
+    margin: 0px 0px 16px;
+    padding: 0px 8px;
+    height:455px ;
+    width: 347px;
+}
+
+
+
+.form1 input{
+    width: 90%;
+    height: 100%;
+    padding:8px 16px ;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    align-items: center;
+    display: block;
+}
+
+.form1 h3{
+    margin-left: 16px;
+    padding: 8px ;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+}
+.form1 p{
+    margin-left: 22px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.owners p{
+    margin: 0px;
+    padding: 10px;
+}
+
+.form1,.form1 button{
+    padding: 14px;
+    margin-left: 16px;
+    display: block;
+
+}
+
+.form1 button{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.map img{
+    
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    
+}
+
+
+    
+
+
+button:hover{
+    background-color: rgb(209, 205, 205);
+}
+
+ .top-left:hover,.top-right :hover{
+    background-color: rgb(195, 191, 191);
+}
